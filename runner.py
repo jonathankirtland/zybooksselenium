@@ -30,7 +30,8 @@ zy_assignment_tab_btn.click()
 zy_assignment_1_menu_click = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.XPATH, "//*[@id=\"ember101\"]/div[1]/div[3]/div/div[1]/h3")))
 zy_assignment_1_menu_click.click()
 
-
+zy_assignment_1_menu_click_assignment_pt_1 = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, "ember148")))
+zy_assignment_1_menu_click_assignment_pt_1.click()
 
 
 
