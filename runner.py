@@ -14,9 +14,9 @@ zy_login_email = driver.find_element(By.ID, "ember8")
 zy_login_pw = driver.find_element(By.ID, "ember10")
 zy_submit_btn = driver.find_element(By.ID, "ember6")
 
-zy_login_email.send_keys("jonathan.kirtland@student.csulb.edu")
+zy_login_email.send_keys("enter ur own username silly")
 
-zy_login_pw.send_keys("Ripley0614")
+zy_login_pw.send_keys("enter ur own password silly")
 
 zy_login_pw.send_keys(Keys.ENTER)
 
